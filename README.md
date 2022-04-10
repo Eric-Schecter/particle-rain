@@ -11,6 +11,9 @@ Particle rain with tail based on Threejs.
 ## Key Point
 1. Enable preserveDrawingBuffer of renderer and disable autoClear to preserve point data.  
 2. Use a plane as background and merge with point to create moving tail effect.  
+3. Change velocity by pixel value from image.  
+
+todo: currently image ratio should be the same as canvas, need to be fixed.  
 
 ## Reference
 Tutorial https://tympanus.net/codrops/2021/03/17/tropical-particles-rain-animation-with-three-js/

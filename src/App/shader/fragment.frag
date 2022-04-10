@@ -5,5 +5,5 @@ void main(){
   if(dist>0.5){
     discard;
   }
-  gl_FragColor=vec4(vColor,.5);
+  gl_FragColor=vec4(vColor,.1);
 }

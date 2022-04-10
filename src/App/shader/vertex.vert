@@ -10,7 +10,7 @@ varying vec3 vColor;
 void main(){
   vUv = uv;
   vColor=color;
-  float size = 4000.;
+  float size = 2000.;
   vec4 mvPosition = modelViewMatrix*vec4(position,1.);
   gl_PointSize = size/ (-mvPosition.z);
   gl_Position=projectionMatrix*mvPosition;
